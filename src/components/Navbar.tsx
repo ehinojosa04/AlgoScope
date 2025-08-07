@@ -20,7 +20,8 @@ export default function Navbar() {
                         <img src={Logo} alt="logo" className="h-8 w-auto"/>
                     </NavLink>
                 </div>
-                <div className="flex gap-x-12">
+
+                <div className="hidden lg:flex gap-x-12">
                     {navigation.map((item) => (
                         <NavLink to={item.href} className="text-lg rounded-xl px-2 hover:bg-surface" key={item.name}>{item.name}</NavLink>
                     ))}

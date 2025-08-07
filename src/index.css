@@ -1,13 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  /* Color palette */
-  --color-primary: #181818;       /* Dark gray */
-  --color-secondary: #f97316;    /* Tailwind's orange-500 */
-  --color-accent: #9ca3af;      /* Tailwind's gray-400 */
-  --color-background: #111827;     /* Tailwind's gray-900 */
-  --color-surface: #1f2937;         /* Tailwind's gray-800 */
-  --color-text: #e5e7eb;        /* Tailwind's gray-200 */
+ /* Enhanced Contrast Hierarchy */
+  --color-primary: #262626;         /* Elevated from background but not competing */
+  --color-secondary: #f97316;       /* Vibrant orange (unchaged - top contrast) */
+  --color-accent: #a5b4fc;          /* Soft periwinkle blue */
+  --color-background: #0f172a;      /* Deep navy base */
+  --color-surface: #1e293b;         /* 1st elevation layer */
+  --color-text: #f8fafc;            /* Pure white text */
+  
+  /* Supporting Colors */
+  --color-primary-muted: #1e293b;   /* For less important primary elements */
+  --color-primary-highlight: #334155; /* Interactive states */
   
   /* Font families */
   --font-sans: "Inter", system-ui, sans-serif;
